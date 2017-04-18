@@ -37,9 +37,6 @@ class Card(object):
 
 class Deck(Card):
 
-    colors = ["Clubs", "Diamonds", "Hearts", "Pikes"]
-    value = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"]
-
     def __init__(self, number_of_cards = 4):
         self.number_of_cards = number_of_cards
         self.deck_cards = []
@@ -60,8 +57,3 @@ class Deck(Card):
             card = Card(card_color, card_value)
             self.deck_cards.append(card)
             self.number_of_cards -= 1
-
-card1 = Card("Clubs", "2")
-deck1 = Deck(8)
-print(deck1.deck_cards)
-# print(Card.colors)
