@@ -2,9 +2,6 @@
 # and returns the average value of the odd numbers in the list
 # Create basic unit tests for it with at least 3 different test cases
 
-numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10]
-numbers2 = [1, 2, 3, 4, 5]
-
 def odd_average(list_of_numbers):
     odd_numbers = 0
     len_of_odds = 0
