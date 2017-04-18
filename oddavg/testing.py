@@ -11,7 +11,7 @@ class Test_Odd_Av(unittest.TestCase):
 
     def test_odd_av_not_just_numbers(self):
         test_list = [2 + 3, 2 * 2, 5 - 1]
-        self.assertEqual(odd_avg.odd_average(test_list), 5) 
+        self.assertEqual(odd_avg.odd_average(test_list), 5)
 
 if __name__ == "__main__":
     unittest.main()
