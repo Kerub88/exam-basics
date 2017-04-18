@@ -13,5 +13,3 @@ def odd_average(list_of_numbers):
             odd_numbers += i
             len_of_odds += 1
     return odd_numbers // len_of_odds
-
-# print(odd_average(numbers2))
