@@ -9,6 +9,7 @@ def odd_average(list_of_numbers):
     odd_numbers = 0
     len_of_odds = 0
     for i in list_of_numbers:
+        # if i is int:
         if i % 2 != 0:
             odd_numbers += i
             len_of_odds += 1
